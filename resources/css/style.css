@@ -1,0 +1,214 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    color: white;
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    background-color: black;
+}
+
+.logo {
+    height: 50px;
+    font-family: 'Dancing Script', serif;
+    font-size: 2rem;
+    text-decoration: none;
+    margin: 1rem;
+}
+
+nav {
+    width: 40%;
+}
+
+nav ul {
+    display: flex;
+    margin: 1rem;
+    padding: 0;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+.mission {
+    display: flex;
+    height: 400px;
+    background: url(../images/background1.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mission-banner {
+    margin: auto;
+    background-color: black;
+    width: 100%;
+    opacity: 50%;
+    text-align: center;
+}
+
+.mission-banner a {
+    text-decoration: none;
+    color: black;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.service {
+    text-align: center;
+    color: black;
+    
+}
+
+.linkedin {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    background-image: linear-gradient(gray, black);
+    width: 100%;
+    flex-basis: 600px;
+    
+}
+
+.corporate {
+    display: flex;
+    flex-flow: column-reverse;
+    justify-content: space-between;
+    box-sizing: border-box;
+    background-image: linear-gradient(black, gray);
+    width: 100%;
+    flex-basis: 600px;
+
+}
+
+.services img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    padding: 10px;
+    height: auto;
+}
+
+.portofolio-content {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.portofolio-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 200px;
+    margin-top: 2rem;
+}
+
+.portofolio-container img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: auto;
+}
+
+.team-title {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+
+.teammate {
+    padding: 10px;
+    flex-basis: 280px;
+    text-align: center;
+}
+
+.teammate img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: auto;
+}
+
+.location {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-sizing: border-box;
+    background-image: linear-gradient(gray, black);
+    width: 100%;
+    margin-top: 4rem;
+}
+
+.address {
+    text-align: center;
+    padding: 70px;
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    flex-basis: 600px;
+}
+
+.location img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: auto;
+    padding: 10px;
+    overflow: hidden;
+}
+
+footer {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+@media only screen and (max-width: 640px) {
+    header {
+        height: 100px;
+    }
+
+    .logo {
+        height: 30px;
+        
+        text-align: center;
+        margin-left: 0;
+    }
+    nav ul {
+        display: block;
+        text-align: right;
+    }
+
+    .mission-banner {
+        margin-top: 8rem;
+    }
+
+    .portofolio-container img {
+        padding-top: 0.6rem;
+    }
+
+}
+
+
